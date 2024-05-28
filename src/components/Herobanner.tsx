@@ -3,13 +3,16 @@ import Image from 'next/image';
 
 const Herobanner = () => {
   return (
-    <div className="flex justify-center items-center ">
-      <div className="flex-1 p-4">
+    <div className="flex justify-center items-center px-[100px]   ">
+      <div className="flex-1 ">
         <div>
-          <h1 className="text-3xl font-bold">Managing freelance payments has never been easier</h1>
+          <h1 className="text-[60px] font-bold">Managing freelance <br/>
+          payments has never <br/>
+           been easier</h1>
         </div>
-        <div className="my-4">
-          <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.</p>
+        <div className="my-4 text-[#64607D] text-[20px]">
+          <p>Yet bed any for travelling assistance indulgence <br/>
+             unpleasing. Not thoughts all exercise blessing.</p>
         </div>
         <div className="my-4 flex items-center">
       <button className="mr-2 p-2 bg-[#3734A9] text-white rounded-full">Get Started</button>
@@ -20,17 +23,17 @@ const Herobanner = () => {
     </div>
         <div className="flex mt-4">
           <div className="flex items-center mr-4">
-            <span className="mr-2">icon</span>
-            <span>Free Register</span>
+          <Image src="/images/check_icon.png" height={18} width={18} alt='playbutton' />
+        <span className="ml-2">Free Register</span>
           </div>
           <div className="flex items-center">
-            <span className="mr-2">icon</span>
-            <span>Great Service</span>
+          <Image src="/images/check_icon.png" height={18} width={18} alt='playbutton' />
+        <span className="ml-2">Great Service</span>
           </div>
         </div>
       </div>
-      <div className="flex-1 p-4">
-        <Image src="/images/hero_banner_img.png" height={200} width={200} alt="heroimg" />
+      <div className="flex-1  h-full  flex ">
+        <Image src="/images/hero_banner_img.png" height={400} width={400} alt="heroimg" />
       </div>
     </div>
   );
