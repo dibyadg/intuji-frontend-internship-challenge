@@ -1,4 +1,5 @@
 import Companies from "@/components/Companies";
+import Features from "@/components/Features";
 import Herobanner from "@/components/Herobanner";
 import Navbar from "@/components/Navbar";
 import Whyus from "@/components/Whyus";
@@ -14,6 +15,7 @@ export default function Home() {
     </div>
     <Companies/>
     <Whyus/>
+    <Features/>
     </>
      );
 }
