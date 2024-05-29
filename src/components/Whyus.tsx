@@ -95,7 +95,7 @@ const Whyus = () => {
     </Card>
       </div>
 
-      <div className='flex flex-row justify-between px-[100px] py-[50px]'>
+      <div className='flex flex-row justify-between px-[100px] pt-[50px]'>
         <div>
           <Image src={"/images/track.png"} height={600} width={600} alt='trackimg'/>
         </div>
@@ -121,9 +121,35 @@ const Whyus = () => {
         </div>
       </div>
 
-      <div>
-        Save money with proper transaction
+      <div className='flex flex-row justify-between items-center px-[100px] '>
+      <div className='mr-40'>
+        <span className='text-[14px] text-[#3734A9] font-semibold'>Why Choose Us</span>
+        <h1 className='text-[50px] font-bold'>Save money with <br />proper transaction</h1>
+        <p>
+          We so opinion friends me message as delight. <br /> 
+          Whole front do of plate heard oh ought. His <br /> 
+          defective nor convinced residence own.
+        </p>
+        
+        <Card className='bg-[#C4C4C4] p-8 rounded-xl relative w-[450px] mt-20'>
+          <Image 
+            src={"/images/quote.png"} 
+            height={40} 
+            width={40} 
+            alt='quote' 
+            className='absolute -top-4 left-[14%] transform -translate-x-1/2'
+          />
+          <p>
+            Wise busy past both park when an ye no. Nay likely her length <br /> 
+            sooner thrown sex lively income. The expense windows.
+          </p>
+          <p className='mt-4'>- Mike Taylor, Web Designer</p>
+        </Card>
       </div>
+      <div className='flex items-center'>
+        <Image src={"/images/transaction.png"} height={800} width={800} alt='tracking' />
+      </div>
+    </div>
     </>
   )
 }
