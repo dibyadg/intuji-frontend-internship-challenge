@@ -2,6 +2,7 @@ import Companies from "@/components/Companies";
 import Features from "@/components/Features";
 import Herobanner from "@/components/Herobanner";
 import Navbar from "@/components/Navbar";
+import Testimonials from "@/components/Testimonials";
 import Whyus from "@/components/Whyus";
 import Image from "next/image";
 
@@ -16,6 +17,7 @@ export default function Home() {
     <Companies/>
     <Whyus/>
     <Features/>
+    <Testimonials/>
     </>
      );
 }
