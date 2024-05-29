@@ -95,8 +95,30 @@ const Whyus = () => {
     </Card>
       </div>
 
-      <div>
-        <h1>Track your payments on the go with the best way possible</h1>
+      <div className='flex flex-row justify-between px-[100px] py-[50px]'>
+        <div>
+          <Image src={"/images/track.png"} height={600} width={600} alt='trackimg'/>
+        </div>
+        <div className='mr-40'>
+        <span className='text-[14px] text-[#3734A9] font-semibold'>Why Choose Us</span>
+        <h1 className='text-[50px] font-bold'>Track your payments <br/> on the go with the <br/> best way possible</h1>
+        <p>Indulgence way everything joy alteration boisterous <br/> the attachment. Party we years to order allow asked of. </p>
+        <hr className='bg-[#C4C4C4] h-[2.5px] mt-4 '  />
+        <div className="flex flex-col mt-4">
+          <div className="flex items-center mr-4 my-2">
+          <Image src="/images/check_orange.png" height={18} width={18} alt='playbutton' />
+        <span className="ml-2">Get Overview at a glance</span>
+          </div>
+          <div className="flex items-center my-2">
+          <Image src="/images/check_orange.png" height={18} width={18} alt='playbutton' />
+        <span className="ml-2">Deoposit funds easily, securlity</span>
+          </div>
+          <div className="flex items-center my-2">
+          <Image src="/images/check_orange.png" height={18} width={18} alt='playbutton' />
+        <span className="ml-2">Get Live Support</span>
+          </div>
+        </div>
+        </div>
       </div>
 
       <div>
