@@ -1,6 +1,7 @@
 import Companies from "@/components/Companies";
 import Herobanner from "@/components/Herobanner";
 import Navbar from "@/components/Navbar";
+import Whyus from "@/components/Whyus";
 import Image from "next/image";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
     <Herobanner/>
     </div>
     <Companies/>
+    <Whyus/>
     </>
      );
 }
